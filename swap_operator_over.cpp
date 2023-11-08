@@ -29,7 +29,7 @@ int main() {
     // Swapping using operator overloading
     a = a + b;
 
-    std::cout << "After swapping: a = " << a.getValue() << ", b = " << b.getValue() << std::endl;
+    std::cout << "After swapping: b = " << a.getValue() << ", a = " << b.getValue() << std::endl;
 
     return 0;
 }
